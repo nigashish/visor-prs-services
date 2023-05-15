@@ -1,0 +1,26 @@
+server:
+  port: 9192
+spring:
+  application:
+    name: VISOR-PRS-SERVICE
+    #visor-prs-services
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      #defaultZone: http://164.52.202.187:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+   hostname: localhost
+   
+      
