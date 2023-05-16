@@ -3,7 +3,8 @@ package com.eupheus.visor.prs.api.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.eupheus.visor.prs.api.model.Payments;
+import com.accelerate.visor.model.Payments;
+
 
 @Repository
 public interface PaymentRepository extends JpaRepository<Payments, Long>{
