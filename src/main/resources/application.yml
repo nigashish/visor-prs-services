@@ -4,10 +4,10 @@ spring:
   application:
     name: VISOR-PRS-SERVICE
   datasource:
-    url: jdbc:postgresql://localhost:5432/accelerate_dev_migrate
+    url: jdbc:postgresql://localhost:5432/accelerate_migrate_dev
     username: accelerate
     password: password
-    
+ 
     hikari:
       connection-timeout: 20000
       minimum-idle: 1
@@ -17,6 +17,7 @@ spring:
       auto-commit: true
   jpa:
     hibernate:
+      ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     properties:

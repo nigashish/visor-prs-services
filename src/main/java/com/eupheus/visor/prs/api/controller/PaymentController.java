@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.accelerate.visor.model.Payments;
+
+import com.accelerate.visor.school.model.Payments;
 import com.eupheus.visor.prs.api.service.PaymentService;
 
 @RestController
