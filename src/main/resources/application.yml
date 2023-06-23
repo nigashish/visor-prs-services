@@ -2,9 +2,9 @@ server:
   port: 9192
 spring:
   application:
-    name: VISOR-PRS-SERVICE
+    name: visor-prs-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/accelerate_migrate_dev
+    url: jdbc:postgresql://localhost:5432/accelerate_dev
     username: accelerate
     password: password
  
